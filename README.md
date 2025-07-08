@@ -9,10 +9,10 @@ Breast cancer is one of the leading causes of cancer-related deaths among women 
 Dataset: VinDr-Mammo Dataset
 - Contains mammography studies with radiologist-annotated findings.
 - Includes common findings such as:
-  Mass
-  Focal Asymmetry
-  Asymmetry
-  Suspicious Calcification
-  Others (rare or combined findings)
+  Mass,
+  Focal Asymmetry,
+  Asymmetry,
+  Suspicious Calcification,
+  Others (rare or combined findings),
   No Finding (downsampled for class balancing)
 
