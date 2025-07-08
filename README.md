@@ -1,15 +1,8 @@
-# Breast Cancer Detection with Deep Learning
-YOLO-based medical imaging pipeline for early cancer detection, trained on high-resolution annotated images.
-# Breast Cancer Detection using YOLOv8
+# Deep Learning-based Detection of Breast Cancer Findings in Mammography
 
-## Overview
-This project aims to detect and classify breast cancer-related features from mammography images using object detection models (YOLOv8). The project follows FDA guidance on AI-assisted diagnosis and incorporates BIRADS-based stratification and mass-level annotations.
+This repository contains ongoing research focused on localizing breast cancer-related abnormalities in mammograms using deep learning-based object detection techniques. The primary objective is to develop an explainable, high-performance detection pipeline to assist radiologists with early diagnosis and screening support.
 
-## Dataset Summary: VinDr-Mammo on Kaggle
-Content:
-  - Over 5,000 mammography exams (2 views per breast: L-CC, R-CC, L-MLO, R-MLO)
-  - BIRADS assessment categories
-  - Annotations in CSV format (bounding boxes, lesion types)
-  - View position + breast density info
-  - Labels: mass, calcification, asymmetry, architectural distortion
+## Project Overview
+Breast cancer is one of the leading causes of cancer-related deaths among women globally. This project explores automated detection of abnormalities in mammograms through computer vision, utilizing multiple deep learning models.
+
 
