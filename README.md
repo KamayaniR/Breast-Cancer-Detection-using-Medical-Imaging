@@ -15,4 +15,9 @@ Dataset: VinDr-Mammo Dataset
   Suspicious Calcification,
   Others (rare or combined findings),
   No Finding (downsampled for class balancing)
+## Preprocessing Steps:
+- DICOM to PNG conversion.
+- Study-wise train/validation/test split (90/5/5) to prevent data leakage.
+- Annotation conversion to YOLO format.
+- Image augmentation & resizing (during training).
 
