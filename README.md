@@ -21,3 +21,12 @@ Dataset: VinDr-Mammo Dataset
 - Annotation conversion to YOLO format.
 - Image augmentation & resizing (during training).
 
+## Models & Techniques
+
+  | Model                   | Type        | Status            |
+| ----------------------- | ----------- | ----------------- |
+| YOLOv8                  | One-Stage   | Completed         |
+| Faster R-CNN            | Two-Stage   | In Progress       |
+| Deformable DETR         | Transformer | Exploration Phase |
+
+
