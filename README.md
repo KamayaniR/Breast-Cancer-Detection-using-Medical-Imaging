@@ -29,4 +29,22 @@ Dataset: VinDr-Mammo Dataset
 | Faster R-CNN            | Two-Stage   | In Progress       |
 | Deformable DETR         | Transformer | Exploration Phase |
 
+## Core Techniques:
+
+    Object Detection (Bounding Box Localization)
+    
+    Stratified Dataset Splitting (by StudyID)
+    
+    Data Augmentation & Resizing
+    
+    Class Re-weighting & Focal Loss (planned)
+    
+    Explainable AI:
+    
+    Grad-CAM for object detection
+    
+    Bounding Box Visualizations
+    
+    Upcoming SHAP/LIME explorations
+
 
