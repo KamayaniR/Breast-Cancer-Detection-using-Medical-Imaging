@@ -34,7 +34,8 @@ Dataset: VinDr-Mammo Dataset
 - Stratified Dataset Splitting (by StudyID)
 - Data Augmentation & Resizing
 - Class Re-weighting & Focal Loss (planned)
-Explainable AI:
+  
+### Explainable AI:
 - Grad-CAM for object detection
 - Bounding Box Visualizations
 - Upcoming SHAP/LIME explorations
