@@ -18,6 +18,7 @@ A research-driven computer vision project for breast cancer detection and classi
 - **Source**: [VinDr-Mammo Dataset](https://physionet.org/content/vindr-mammo/)
 - **Structure**:
   
+  ```
   raw_dicom_dir/
   ├── study_id_1/
   │   ├── image1.dcm
@@ -25,6 +26,7 @@ A research-driven computer vision project for breast cancer detection and classi
   │   └── ...
   └── study_id_n/
       └── ...
+  ```
   
 - Each 'study_id' contains 4 mammography views.
 - DICOM files are converted to PNG using 'pydicom' + OpenCV, with structure preserved.
